@@ -1,0 +1,6 @@
+framework module Pods_RNWaltz {
+  umbrella header "Pods-RNWaltz-umbrella.h"
+
+  export *
+  module * { export * }
+}
