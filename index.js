@@ -1,6 +1,14 @@
+import React from 'react';
+import { NativeEventEmitter, NativeModules } from 'react-native';
+const { WaltzImp } = NativeModules;
 
-import { NativeModules } from 'react-native';
+class Waltz extends NativeEventEmitter {
+    constructor(nativeModule){
+        super(nativeModule);
+        this.initManager = nativeModule.initManager;
+        this.login = nativeModule.login;
+        this.showQR = nativeModule.showQR;
+    }
+}
 
-const { RNWaltz } = NativeModules;
-
-export default RNWaltz;
+export default new Waltz(WaltzImp)
