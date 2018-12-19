@@ -38,11 +38,11 @@ After this open your project's workspace and do the following:
 
 1. Go under `YourProject.xcodeproj > Libraries` and select the `RNWaltz.xcodeproj`
 
-![Xcode-Navigator](images/xcode-navigator.png)
+    ![Xcode-Navigator](images/xcode-navigator.png)
 
 2. In the target's **Build Phases** go to `Link Binary with Libraries` and remove the reference to the old pods and add the new pods framework  
 
-![project-Settings](images/project-settings.png)
+    ![project-Settings](images/project-settings.png)
 
 3. Go back to the main project's settings and under **Build Phases** add the `libRNWaltz.a` file. (If it doesn't show up automatically when trying to add it, you can find the file under `YourProject.xcodeproj > Libraries > RNWaltz.xcodeproj > Products`)
 
