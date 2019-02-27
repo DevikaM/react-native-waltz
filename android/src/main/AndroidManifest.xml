@@ -1,0 +1,13 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.rnwaltz">
+    <application>
+
+        <activity
+            android:name=".WaltzActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+    </application>
+</manifest>
+  
