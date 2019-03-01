@@ -8,6 +8,7 @@ React Native bridge for [Waltz's SDK](http://waltzapp.com)
 npm install --save react-native-waltz
 ```
 Once the npm install is done, navigate to your iOS file and create/update your pod file
+
 ```
 cd ios
 #if you don't have already a podfile
@@ -34,6 +35,15 @@ target 'YOUR_PROJECT' do
 end
 
 ```
+
+Run 
+
+``` 
+pod install
+```
+
+Link library by adding the `RNWaltz.xcodeproj` from node-modules/ to `YourProject.xcodeproj > Libraries`
+
 After this open your project's workspace and do the following:
 
 1. Go under `YourProject.xcodeproj > Libraries` and select the `RNWaltz.xcodeproj`
