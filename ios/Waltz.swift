@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 import AVFoundation
 import WaltzAccess
 
@@ -26,9 +27,13 @@ class WaltzImp : NSObject {
         WaltzSDKMgr.sharedManager.logIn()
     }
     
-    @objc func showQR() -> Void {
-        WaltzSDKMgr.sharedManager.beginTransaction()
+    @objc func showQR(view: UIView, vc: UIViewController?) -> Void {
+        WaltzSDKMgr.sharedManager.beginTransaction(parentView: view, parentVC: vc)
     }
     
 }
+
+
+
+
 

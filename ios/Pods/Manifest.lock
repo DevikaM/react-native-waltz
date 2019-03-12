@@ -1,9 +1,9 @@
 PODS:
-  - Alamofire (4.8.0)
+  - Alamofire (4.8.1)
   - Freddy (3.0.3)
   - JWTDecode (2.2.0)
   - UICKeyChainStore (2.1.2)
-  - WaltzAccess (2.0.0):
+  - WaltzAccess (2.1.0):
     - Alamofire
     - Freddy
     - JWTDecode
@@ -25,11 +25,11 @@ SPEC REPOS:
     - WaltzPBC
 
 SPEC CHECKSUMS:
-  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Freddy: 7c62db262a0d0e3b3e2b8b40f2c0cc51e122fbc4
   JWTDecode: 85a405ab16d5473e99bd89ded1d535090ebd6a0e
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
-  WaltzAccess: a7a161e195660560e52b8e413532476acb9934c9
+  WaltzAccess: 4d2d7a43bbf238029d25af38edd5f527efacceb1
   WaltzPBC: 41a1e1fda891bda837d0f081115fc751766aee98
 
 PODFILE CHECKSUM: cc5a8556c25d8ae450dc0a11e4e1172c5c117a06

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39E4913FFFD910A0E803F629 /* Pods_RNWaltz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BB978F7194460883FDA400 /* Pods_RNWaltz.framework */; };
+		7345B16822380A5700E79389 /* WaltzManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345B16722380A5700E79389 /* WaltzManager.swift */; };
+		7345B16A22380D2200E79389 /* WaltzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345B16922380D2200E79389 /* WaltzView.swift */; };
+		73E8D4692229DDBE00742D25 /* Pods_waltzTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E8D4682229DDBE00742D25 /* Pods_waltzTest.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNWaltz.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNWaltz.m */; };
-		D71BD23D21C982F7000ADDB9 /* waltz.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71BD23C21C982F7000ADDB9 /* waltz.swift */; };
+		D71BD23D21C982F7000ADDB9 /* Waltz.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71BD23C21C982F7000ADDB9 /* Waltz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +30,13 @@
 		134814201AA4EA6300B7C361 /* libRNWaltz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNWaltz.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E4DDB9F72F290345493DF4 /* Pods-RNWaltz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWaltz.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNWaltz/Pods-RNWaltz.release.xcconfig"; sourceTree = "<group>"; };
 		69BB978F7194460883FDA400 /* Pods_RNWaltz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNWaltz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345B16722380A5700E79389 /* WaltzManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaltzManager.swift; sourceTree = "<group>"; };
+		7345B16922380D2200E79389 /* WaltzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaltzView.swift; sourceTree = "<group>"; };
+		73E8D4682229DDBE00742D25 /* Pods_waltzTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_waltzTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FBFCDCB9FFBAEBA013AE7B /* Pods-RNWaltz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWaltz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNWaltz/Pods-RNWaltz.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNWaltz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNWaltz.m; sourceTree = "<group>"; };
 		D71BD23B21C982F7000ADDB9 /* RNWaltz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNWaltz-Bridging-Header.h"; sourceTree = "<group>"; };
-		D71BD23C21C982F7000ADDB9 /* waltz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waltz.swift; sourceTree = "<group>"; };
+		D71BD23C21C982F7000ADDB9 /* Waltz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waltz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39E4913FFFD910A0E803F629 /* Pods_RNWaltz.framework in Frameworks */,
+				73E8D4692229DDBE00742D25 /* Pods_waltzTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +62,7 @@
 		2B908F86C1EB116824C119FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73E8D4682229DDBE00742D25 /* Pods_waltzTest.framework */,
 				69BB978F7194460883FDA400 /* Pods_RNWaltz.framework */,
 			);
 			name = Frameworks;
@@ -65,12 +71,14 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				D71BD23C21C982F7000ADDB9 /* waltz.swift */,
+				7345B16922380D2200E79389 /* WaltzView.swift */,
+				7345B16722380A5700E79389 /* WaltzManager.swift */,
+				D71BD23C21C982F7000ADDB9 /* Waltz.swift */,
 				B3E7B5891CC2AC0600A0062D /* RNWaltz.m */,
+				D71BD23B21C982F7000ADDB9 /* RNWaltz-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				8B876B52E2BAA27085689BFE /* Pods */,
 				2B908F86C1EB116824C119FE /* Frameworks */,
-				D71BD23B21C982F7000ADDB9 /* RNWaltz-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71BD23D21C982F7000ADDB9 /* waltz.swift in Sources */,
+				7345B16822380A5700E79389 /* WaltzManager.swift in Sources */,
+				D71BD23D21C982F7000ADDB9 /* Waltz.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNWaltz.m in Sources */,
+				7345B16A22380D2200E79389 /* WaltzView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
