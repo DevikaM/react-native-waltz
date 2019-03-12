@@ -67,13 +67,9 @@ After this open your project's workspace and do the following:
 ## Usage
 
 ```javascript
-import Waltz from 'react-native-waltz'
+import WaltzView from 'react-native-waltz'
 
-Waltz.initManager("licenseId", "vendorUID") //this is required to be able to use the sdk
-
-Waltz.login() //takes you to login flow
-
-Waltz.showQR() //shows pass (only when logged in)
+<WaltzView/> // this shows modal with QRCode
  
 ```
 
